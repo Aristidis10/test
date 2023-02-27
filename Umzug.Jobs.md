@@ -24,38 +24,35 @@
   - [USGEGrouping(USGElst)](#M-Afg-Umzug-Jobs-Helpers-USGEGrouping-System-Collections-Generic-IEnumerable{Afg-Umzug-Data-Models-Umzug_Transact}- 'Afg.Umzug.Jobs.Helpers.USGEGrouping(System.Collections.Generic.IEnumerable{Afg.Umzug.Data.Models.Umzug_Transact})')
 - [IgnoreErroredJobs](#T-Afg-Umzug-Jobs-ActiveJobs-IgnoreErroredJobs 'Afg.Umzug.Jobs.ActiveJobs.IgnoreErroredJobs')
   - [#ctor(repository,ionHttpClient,logger)](#M-Afg-Umzug-Jobs-ActiveJobs-IgnoreErroredJobs-#ctor-Afg-Umzug-Data-Repositories-UmzugDCSTransactRepository,Afg-Ion-Client-IonHttpClient,Microsoft-Extensions-Logging-ILogger{Afg-Umzug-Jobs-BackgroundJobs-UpdateIonFromUmzug}- 'Afg.Umzug.Jobs.ActiveJobs.IgnoreErroredJobs.#ctor(Afg.Umzug.Data.Repositories.UmzugDCSTransactRepository,Afg.Ion.Client.IonHttpClient,Microsoft.Extensions.Logging.ILogger{Afg.Umzug.Jobs.BackgroundJobs.UpdateIonFromUmzug})')
-  - [Ignore(token,context,id)](#M-Afg-Umzug-Jobs-ActiveJobs-IgnoreErroredJobs-Ignore-System-Threading-CancellationToken,Hangfire-Server-PerformContext,System-String- 'Afg.Umzug.Jobs.ActiveJobs.IgnoreErroredJobs.Ignore(System.Threading.CancellationToken,Hangfire.Server.PerformContext,System.String)')
-  - [Ignore(token,context,lstIds)](#M-Afg-Umzug-Jobs-ActiveJobs-IgnoreErroredJobs-Ignore-System-Threading-CancellationToken,Hangfire-Server-PerformContext,System-Collections-Generic-IEnumerable{System-String}- 'Afg.Umzug.Jobs.ActiveJobs.IgnoreErroredJobs.Ignore(System.Threading.CancellationToken,Hangfire.Server.PerformContext,System.Collections.Generic.IEnumerable{System.String})')
+  - [Ignore(token,id)](#M-Afg-Umzug-Jobs-ActiveJobs-IgnoreErroredJobs-Ignore-System-Threading-CancellationToken,System-String- 'Afg.Umzug.Jobs.ActiveJobs.IgnoreErroredJobs.Ignore(System.Threading.CancellationToken,System.String)')
+  - [Ignore(token,lstIds)](#M-Afg-Umzug-Jobs-ActiveJobs-IgnoreErroredJobs-Ignore-System-Threading-CancellationToken,System-Collections-Generic-IEnumerable{System-String}- 'Afg.Umzug.Jobs.ActiveJobs.IgnoreErroredJobs.Ignore(System.Threading.CancellationToken,System.Collections.Generic.IEnumerable{System.String})')
 - [ResendAllErroredJobs](#T-Afg-Umzug-Jobs-ActiveJobs-ResendAllErroredJobs 'Afg.Umzug.Jobs.ActiveJobs.ResendAllErroredJobs')
   - [#ctor(repository,ionHttpClient,logger)](#M-Afg-Umzug-Jobs-ActiveJobs-ResendAllErroredJobs-#ctor-Afg-Umzug-Data-Repositories-UmzugDCSTransactRepository,Afg-Ion-Client-IonHttpClient,Microsoft-Extensions-Logging-ILogger{Afg-Umzug-Jobs-BackgroundJobs-UpdateIonFromUmzug}- 'Afg.Umzug.Jobs.ActiveJobs.ResendAllErroredJobs.#ctor(Afg.Umzug.Data.Repositories.UmzugDCSTransactRepository,Afg.Ion.Client.IonHttpClient,Microsoft.Extensions.Logging.ILogger{Afg.Umzug.Jobs.BackgroundJobs.UpdateIonFromUmzug})')
-  - [Resend(token,context)](#M-Afg-Umzug-Jobs-ActiveJobs-ResendAllErroredJobs-Resend-System-Threading-CancellationToken,Hangfire-Server-PerformContext- 'Afg.Umzug.Jobs.ActiveJobs.ResendAllErroredJobs.Resend(System.Threading.CancellationToken,Hangfire.Server.PerformContext)')
-  - [SendListToIon(lst,context)](#M-Afg-Umzug-Jobs-ActiveJobs-ResendAllErroredJobs-SendListToIon-System-Collections-Generic-IEnumerable{Afg-Umzug-Data-Models-Umzug_Transact},Hangfire-Server-PerformContext- 'Afg.Umzug.Jobs.ActiveJobs.ResendAllErroredJobs.SendListToIon(System.Collections.Generic.IEnumerable{Afg.Umzug.Data.Models.Umzug_Transact},Hangfire.Server.PerformContext)')
+  - [Resend(token)](#M-Afg-Umzug-Jobs-ActiveJobs-ResendAllErroredJobs-Resend-System-Threading-CancellationToken- 'Afg.Umzug.Jobs.ActiveJobs.ResendAllErroredJobs.Resend(System.Threading.CancellationToken)')
 - [ResendErroredJobs](#T-Afg-Umzug-Jobs-ActiveJobs-ResendErroredJobs 'Afg.Umzug.Jobs.ActiveJobs.ResendErroredJobs')
   - [#ctor(repository,ionHttpClient,logger)](#M-Afg-Umzug-Jobs-ActiveJobs-ResendErroredJobs-#ctor-Afg-Umzug-Data-Repositories-UmzugDCSTransactRepository,Afg-Ion-Client-IonHttpClient,Microsoft-Extensions-Logging-ILogger{Afg-Umzug-Jobs-BackgroundJobs-UpdateIonFromUmzug}- 'Afg.Umzug.Jobs.ActiveJobs.ResendErroredJobs.#ctor(Afg.Umzug.Data.Repositories.UmzugDCSTransactRepository,Afg.Ion.Client.IonHttpClient,Microsoft.Extensions.Logging.ILogger{Afg.Umzug.Jobs.BackgroundJobs.UpdateIonFromUmzug})')
-  - [Resend(token,context,id)](#M-Afg-Umzug-Jobs-ActiveJobs-ResendErroredJobs-Resend-System-Threading-CancellationToken,Hangfire-Server-PerformContext,System-String- 'Afg.Umzug.Jobs.ActiveJobs.ResendErroredJobs.Resend(System.Threading.CancellationToken,Hangfire.Server.PerformContext,System.String)')
-  - [Resend(token,context,ids)](#M-Afg-Umzug-Jobs-ActiveJobs-ResendErroredJobs-Resend-System-Threading-CancellationToken,Hangfire-Server-PerformContext,System-Collections-Generic-IEnumerable{System-String}- 'Afg.Umzug.Jobs.ActiveJobs.ResendErroredJobs.Resend(System.Threading.CancellationToken,Hangfire.Server.PerformContext,System.Collections.Generic.IEnumerable{System.String})')
-  - [SendListToIon(lst,context)](#M-Afg-Umzug-Jobs-ActiveJobs-ResendErroredJobs-SendListToIon-System-Collections-Generic-IEnumerable{Afg-Umzug-Data-Models-Umzug_Transact},Hangfire-Server-PerformContext- 'Afg.Umzug.Jobs.ActiveJobs.ResendErroredJobs.SendListToIon(System.Collections.Generic.IEnumerable{Afg.Umzug.Data.Models.Umzug_Transact},Hangfire.Server.PerformContext)')
+  - [Resend(token,id)](#M-Afg-Umzug-Jobs-ActiveJobs-ResendErroredJobs-Resend-System-Threading-CancellationToken,System-String- 'Afg.Umzug.Jobs.ActiveJobs.ResendErroredJobs.Resend(System.Threading.CancellationToken,System.String)')
+  - [Resend(token,ids)](#M-Afg-Umzug-Jobs-ActiveJobs-ResendErroredJobs-Resend-System-Threading-CancellationToken,System-Collections-Generic-IEnumerable{System-String}- 'Afg.Umzug.Jobs.ActiveJobs.ResendErroredJobs.Resend(System.Threading.CancellationToken,System.Collections.Generic.IEnumerable{System.String})')
 - [ResendTransactionByDates](#T-Afg-Umzug-Jobs-ActiveJobs-ResendTransactionByDates 'Afg.Umzug.Jobs.ActiveJobs.ResendTransactionByDates')
-  - [#ctor(dbService)](#M-Afg-Umzug-Jobs-ActiveJobs-ResendTransactionByDates-#ctor-Afg-Umzug-Data-Services-AfgWMSM3DataService- 'Afg.Umzug.Jobs.ActiveJobs.ResendTransactionByDates.#ctor(Afg.Umzug.Data.Services.AfgWMSM3DataService)')
-  - [Resend(dateStart,dateEnd,token,context)](#M-Afg-Umzug-Jobs-ActiveJobs-ResendTransactionByDates-Resend-System-DateTime,System-DateTime,System-Threading-CancellationToken,Hangfire-Server-PerformContext- 'Afg.Umzug.Jobs.ActiveJobs.ResendTransactionByDates.Resend(System.DateTime,System.DateTime,System.Threading.CancellationToken,Hangfire.Server.PerformContext)')
+  - [#ctor(dbService)](#M-Afg-Umzug-Jobs-ActiveJobs-ResendTransactionByDates-#ctor-Afg-Umzug-Data-Services-AfgWMSM3DataService,Microsoft-Extensions-Logging-ILogger{Afg-Umzug-Jobs-ActiveJobs-ResendTransactionByDates}- 'Afg.Umzug.Jobs.ActiveJobs.ResendTransactionByDates.#ctor(Afg.Umzug.Data.Services.AfgWMSM3DataService,Microsoft.Extensions.Logging.ILogger{Afg.Umzug.Jobs.ActiveJobs.ResendTransactionByDates})')
+  - [Resend(dateStart,dateEnd,token)](#M-Afg-Umzug-Jobs-ActiveJobs-ResendTransactionByDates-Resend-System-DateTime,System-DateTime,System-Threading-CancellationToken- 'Afg.Umzug.Jobs.ActiveJobs.ResendTransactionByDates.Resend(System.DateTime,System.DateTime,System.Threading.CancellationToken)')
 - [Startup](#T-Afg-Umzug-Jobs-Startup 'Afg.Umzug.Jobs.Startup')
   - [AddUmzugJobs(services)](#M-Afg-Umzug-Jobs-Startup-AddUmzugJobs-Microsoft-Extensions-DependencyInjection-IServiceCollection- 'Afg.Umzug.Jobs.Startup.AddUmzugJobs(Microsoft.Extensions.DependencyInjection.IServiceCollection)')
   - [SetupReocurringJobs()](#M-Afg-Umzug-Jobs-Startup-SetupReocurringJobs 'Afg.Umzug.Jobs.Startup.SetupReocurringJobs')
 - [UpdateDCSFromUmzug](#T-Afg-Umzug-Jobs-BackgroundJobs-UpdateDCSFromUmzug 'Afg.Umzug.Jobs.BackgroundJobs.UpdateDCSFromUmzug')
-  - [#ctor(dbService,repository)](#M-Afg-Umzug-Jobs-BackgroundJobs-UpdateDCSFromUmzug-#ctor-Afg-Umzug-Data-Services-AfgWMSM3DataService,Afg-Umzug-Data-Repositories-UmzugDCSTransactRepository- 'Afg.Umzug.Jobs.BackgroundJobs.UpdateDCSFromUmzug.#ctor(Afg.Umzug.Data.Services.AfgWMSM3DataService,Afg.Umzug.Data.Repositories.UmzugDCSTransactRepository)')
+  - [#ctor(dbService,repository)](#M-Afg-Umzug-Jobs-BackgroundJobs-UpdateDCSFromUmzug-#ctor-Afg-Umzug-Data-Services-AfgWMSM3DataService,Afg-Umzug-Data-Repositories-UmzugDCSTransactRepository,Microsoft-Extensions-Logging-ILogger{Afg-Umzug-Jobs-BackgroundJobs-UpdateDCSFromUmzug}- 'Afg.Umzug.Jobs.BackgroundJobs.UpdateDCSFromUmzug.#ctor(Afg.Umzug.Data.Services.AfgWMSM3DataService,Afg.Umzug.Data.Repositories.UmzugDCSTransactRepository,Microsoft.Extensions.Logging.ILogger{Afg.Umzug.Jobs.BackgroundJobs.UpdateDCSFromUmzug})')
   - [Update(token,context)](#M-Afg-Umzug-Jobs-BackgroundJobs-UpdateDCSFromUmzug-Update-System-Threading-CancellationToken,Hangfire-Server-PerformContext- 'Afg.Umzug.Jobs.BackgroundJobs.UpdateDCSFromUmzug.Update(System.Threading.CancellationToken,Hangfire.Server.PerformContext)')
 - [UpdateIonFromUmzug](#T-Afg-Umzug-Jobs-BackgroundJobs-UpdateIonFromUmzug 'Afg.Umzug.Jobs.BackgroundJobs.UpdateIonFromUmzug')
   - [#ctor(repository,ionHttpClient,logger)](#M-Afg-Umzug-Jobs-BackgroundJobs-UpdateIonFromUmzug-#ctor-Afg-Umzug-Data-Repositories-UmzugDCSTransactRepository,Afg-Ion-Client-IonHttpClient,Microsoft-Extensions-Logging-ILogger{Afg-Umzug-Jobs-BackgroundJobs-UpdateIonFromUmzug}- 'Afg.Umzug.Jobs.BackgroundJobs.UpdateIonFromUmzug.#ctor(Afg.Umzug.Data.Repositories.UmzugDCSTransactRepository,Afg.Ion.Client.IonHttpClient,Microsoft.Extensions.Logging.ILogger{Afg.Umzug.Jobs.BackgroundJobs.UpdateIonFromUmzug})')
   - [GetListToExportAsync()](#M-Afg-Umzug-Jobs-BackgroundJobs-UpdateIonFromUmzug-GetListToExportAsync 'Afg.Umzug.Jobs.BackgroundJobs.UpdateIonFromUmzug.GetListToExportAsync')
-  - [SendListToIon(lst,context)](#M-Afg-Umzug-Jobs-BackgroundJobs-UpdateIonFromUmzug-SendListToIon-System-Collections-Generic-IEnumerable{Afg-Umzug-Data-Models-Umzug_Transact},Hangfire-Server-PerformContext- 'Afg.Umzug.Jobs.BackgroundJobs.UpdateIonFromUmzug.SendListToIon(System.Collections.Generic.IEnumerable{Afg.Umzug.Data.Models.Umzug_Transact},Hangfire.Server.PerformContext)')
   - [Update(token,context)](#M-Afg-Umzug-Jobs-BackgroundJobs-UpdateIonFromUmzug-Update-System-Threading-CancellationToken,Hangfire-Server-PerformContext- 'Afg.Umzug.Jobs.BackgroundJobs.UpdateIonFromUmzug.Update(System.Threading.CancellationToken,Hangfire.Server.PerformContext)')
 - [UpdateUmzugFromDCS](#T-Afg-Umzug-Jobs-BackgroundJobs-UpdateUmzugFromDCS 'Afg.Umzug.Jobs.BackgroundJobs.UpdateUmzugFromDCS')
   - [#ctor(dbService,logger,repository)](#M-Afg-Umzug-Jobs-BackgroundJobs-UpdateUmzugFromDCS-#ctor-Afg-Umzug-Data-Services-AfgWMSM3DataService,Microsoft-Extensions-Logging-ILogger{Afg-Umzug-Jobs-BackgroundJobs-UpdateUmzugFromDCS},Afg-Umzug-Data-Repositories-UmzugDCSTransactRepository- 'Afg.Umzug.Jobs.BackgroundJobs.UpdateUmzugFromDCS.#ctor(Afg.Umzug.Data.Services.AfgWMSM3DataService,Microsoft.Extensions.Logging.ILogger{Afg.Umzug.Jobs.BackgroundJobs.UpdateUmzugFromDCS},Afg.Umzug.Data.Repositories.UmzugDCSTransactRepository)')
-  - [SyncDatabaseAsync(cancellationToken,performContext)](#M-Afg-Umzug-Jobs-BackgroundJobs-UpdateUmzugFromDCS-SyncDatabaseAsync-System-Threading-CancellationToken,Hangfire-Server-PerformContext- 'Afg.Umzug.Jobs.BackgroundJobs.UpdateUmzugFromDCS.SyncDatabaseAsync(System.Threading.CancellationToken,Hangfire.Server.PerformContext)')
-  - [WhenAllEx(tasks,reportProgressAction)](#M-Afg-Umzug-Jobs-BackgroundJobs-UpdateUmzugFromDCS-WhenAllEx-System-Collections-Generic-ICollection{System-Threading-Tasks-Task},System-Action{System-Collections-Generic-ICollection{System-Threading-Tasks-Task}}- 'Afg.Umzug.Jobs.BackgroundJobs.UpdateUmzugFromDCS.WhenAllEx(System.Collections.Generic.ICollection{System.Threading.Tasks.Task},System.Action{System.Collections.Generic.ICollection{System.Threading.Tasks.Task}})')
+  - [SyncDatabaseAsync(cancellationToken,context)](#M-Afg-Umzug-Jobs-BackgroundJobs-UpdateUmzugFromDCS-SyncDatabaseAsync-System-Threading-CancellationToken,Hangfire-Server-PerformContext- 'Afg.Umzug.Jobs.BackgroundJobs.UpdateUmzugFromDCS.SyncDatabaseAsync(System.Threading.CancellationToken,Hangfire.Server.PerformContext)')
 - [UpdateUmzugFromIon](#T-Afg-Umzug-Jobs-BackgroundJobs-UpdateUmzugFromIon 'Afg.Umzug.Jobs.BackgroundJobs.UpdateUmzugFromIon')
-  - [#ctor(dbService,repository)](#M-Afg-Umzug-Jobs-BackgroundJobs-UpdateUmzugFromIon-#ctor-Afg-Umzug-Data-Services-AfgWMSM3DataService,Afg-Umzug-Data-Repositories-UmzugDCSTransactRepository- 'Afg.Umzug.Jobs.BackgroundJobs.UpdateUmzugFromIon.#ctor(Afg.Umzug.Data.Services.AfgWMSM3DataService,Afg.Umzug.Data.Repositories.UmzugDCSTransactRepository)')
-  - [Update(token,context,objectFromIon)](#M-Afg-Umzug-Jobs-BackgroundJobs-UpdateUmzugFromIon-Update-System-Threading-CancellationToken,Hangfire-Server-PerformContext,System-Collections-Generic-IEnumerable{Afg-Umzug-Data-Models-M3Response}- 'Afg.Umzug.Jobs.BackgroundJobs.UpdateUmzugFromIon.Update(System.Threading.CancellationToken,Hangfire.Server.PerformContext,System.Collections.Generic.IEnumerable{Afg.Umzug.Data.Models.M3Response})')
+  - [#ctor(dbService,repository,ionHttpClient,logger)](#M-Afg-Umzug-Jobs-BackgroundJobs-UpdateUmzugFromIon-#ctor-Afg-Umzug-Data-Services-AfgWMSM3DataService,Afg-Umzug-Data-Repositories-UmzugDCSTransactRepository,Afg-Ion-Client-IonHttpClient,Microsoft-Extensions-Logging-ILogger{Afg-Umzug-Jobs-BackgroundJobs-UpdateUmzugFromIon}- 'Afg.Umzug.Jobs.BackgroundJobs.UpdateUmzugFromIon.#ctor(Afg.Umzug.Data.Services.AfgWMSM3DataService,Afg.Umzug.Data.Repositories.UmzugDCSTransactRepository,Afg.Ion.Client.IonHttpClient,Microsoft.Extensions.Logging.ILogger{Afg.Umzug.Jobs.BackgroundJobs.UpdateUmzugFromIon})')
+  - [PullFromIon(token)](#M-Afg-Umzug-Jobs-BackgroundJobs-UpdateUmzugFromIon-PullFromIon-System-Threading-CancellationToken,Hangfire-Server-PerformContext- 'Afg.Umzug.Jobs.BackgroundJobs.UpdateUmzugFromIon.PullFromIon(System.Threading.CancellationToken,Hangfire.Server.PerformContext)')
+  - [Update(token,objectFromIon,context)](#M-Afg-Umzug-Jobs-BackgroundJobs-UpdateUmzugFromIon-Update-System-Threading-CancellationToken,System-Collections-Generic-IEnumerable{Afg-Umzug-Data-Models-M3Response},Hangfire-Server-PerformContext- 'Afg.Umzug.Jobs.BackgroundJobs.UpdateUmzugFromIon.Update(System.Threading.CancellationToken,System.Collections.Generic.IEnumerable{Afg.Umzug.Data.Models.M3Response},Hangfire.Server.PerformContext)')
 
 <a name='T-Afg-Umzug-Jobs-Helpers'></a>
 ## Helpers `type`
@@ -405,8 +402,8 @@ Constructor for IgnoreErroredJobs
 | ionHttpClient | [Afg.Ion.Client.IonHttpClient](#T-Afg-Ion-Client-IonHttpClient 'Afg.Ion.Client.IonHttpClient') | The injection of the Ion Client of type [IonHttpClient](#T-Afg-Ion-Client-IonHttpClient 'Afg.Ion.Client.IonHttpClient') |
 | logger | [Microsoft.Extensions.Logging.ILogger{Afg.Umzug.Jobs.BackgroundJobs.UpdateIonFromUmzug}](#T-Microsoft-Extensions-Logging-ILogger{Afg-Umzug-Jobs-BackgroundJobs-UpdateIonFromUmzug} 'Microsoft.Extensions.Logging.ILogger{Afg.Umzug.Jobs.BackgroundJobs.UpdateIonFromUmzug}') | The injection of the logger of type [ILogger\`1](#T-Microsoft-Extensions-Logging-ILogger`1 'Microsoft.Extensions.Logging.ILogger`1') |
 
-<a name='M-Afg-Umzug-Jobs-ActiveJobs-IgnoreErroredJobs-Ignore-System-Threading-CancellationToken,Hangfire-Server-PerformContext,System-String-'></a>
-### Ignore(token,context,id) `method`
+<a name='M-Afg-Umzug-Jobs-ActiveJobs-IgnoreErroredJobs-Ignore-System-Threading-CancellationToken,System-String-'></a>
+### Ignore(token,id) `method`
 
 ##### Summary
 
@@ -421,11 +418,10 @@ Ignores the error for a transaction being sent to ION
 | Name | Type | Description |
 | ---- | ---- | ----------- |
 | token | [System.Threading.CancellationToken](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Threading.CancellationToken 'System.Threading.CancellationToken') |  |
-| context | [Hangfire.Server.PerformContext](#T-Hangfire-Server-PerformContext 'Hangfire.Server.PerformContext') |  |
 | id | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') | The id that is to be ignored of type [String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') |
 
-<a name='M-Afg-Umzug-Jobs-ActiveJobs-IgnoreErroredJobs-Ignore-System-Threading-CancellationToken,Hangfire-Server-PerformContext,System-Collections-Generic-IEnumerable{System-String}-'></a>
-### Ignore(token,context,lstIds) `method`
+<a name='M-Afg-Umzug-Jobs-ActiveJobs-IgnoreErroredJobs-Ignore-System-Threading-CancellationToken,System-Collections-Generic-IEnumerable{System-String}-'></a>
+### Ignore(token,lstIds) `method`
 
 ##### Summary
 
@@ -440,7 +436,6 @@ Ignores the error for a transaction being sent to ION
 | Name | Type | Description |
 | ---- | ---- | ----------- |
 | token | [System.Threading.CancellationToken](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Threading.CancellationToken 'System.Threading.CancellationToken') |  |
-| context | [Hangfire.Server.PerformContext](#T-Hangfire-Server-PerformContext 'Hangfire.Server.PerformContext') |  |
 | lstIds | [System.Collections.Generic.IEnumerable{System.String}](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Collections.Generic.IEnumerable 'System.Collections.Generic.IEnumerable{System.String}') | The list of Id's that are to be ingored of type [IEnumerable\`1](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Collections.Generic.IEnumerable`1 'System.Collections.Generic.IEnumerable`1') |
 
 <a name='T-Afg-Umzug-Jobs-ActiveJobs-ResendAllErroredJobs'></a>
@@ -465,8 +460,8 @@ Constructor for ResendAllErroredJobs
 | ionHttpClient | [Afg.Ion.Client.IonHttpClient](#T-Afg-Ion-Client-IonHttpClient 'Afg.Ion.Client.IonHttpClient') | The injection of the Ion Client of type [IonHttpClient](#T-Afg-Ion-Client-IonHttpClient 'Afg.Ion.Client.IonHttpClient') |
 | logger | [Microsoft.Extensions.Logging.ILogger{Afg.Umzug.Jobs.BackgroundJobs.UpdateIonFromUmzug}](#T-Microsoft-Extensions-Logging-ILogger{Afg-Umzug-Jobs-BackgroundJobs-UpdateIonFromUmzug} 'Microsoft.Extensions.Logging.ILogger{Afg.Umzug.Jobs.BackgroundJobs.UpdateIonFromUmzug}') | The injection of the logger of type [ILogger\`1](#T-Microsoft-Extensions-Logging-ILogger`1 'Microsoft.Extensions.Logging.ILogger`1') |
 
-<a name='M-Afg-Umzug-Jobs-ActiveJobs-ResendAllErroredJobs-Resend-System-Threading-CancellationToken,Hangfire-Server-PerformContext-'></a>
-### Resend(token,context) `method`
+<a name='M-Afg-Umzug-Jobs-ActiveJobs-ResendAllErroredJobs-Resend-System-Threading-CancellationToken-'></a>
+### Resend(token) `method`
 
 ##### Summary
 
@@ -481,31 +476,6 @@ Resends all errored transactions
 | Name | Type | Description |
 | ---- | ---- | ----------- |
 | token | [System.Threading.CancellationToken](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Threading.CancellationToken 'System.Threading.CancellationToken') |  |
-| context | [Hangfire.Server.PerformContext](#T-Hangfire-Server-PerformContext 'Hangfire.Server.PerformContext') |  |
-
-<a name='M-Afg-Umzug-Jobs-ActiveJobs-ResendAllErroredJobs-SendListToIon-System-Collections-Generic-IEnumerable{Afg-Umzug-Data-Models-Umzug_Transact},Hangfire-Server-PerformContext-'></a>
-### SendListToIon(lst,context) `method`
-
-##### Summary
-
-Sends the list of valid transactions to ION
-
-##### Returns
-
-A successful response message
-
-##### Parameters
-
-| Name | Type | Description |
-| ---- | ---- | ----------- |
-| lst | [System.Collections.Generic.IEnumerable{Afg.Umzug.Data.Models.Umzug_Transact}](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Collections.Generic.IEnumerable 'System.Collections.Generic.IEnumerable{Afg.Umzug.Data.Models.Umzug_Transact}') | The list of valid transactions to send ot ION of type [IEnumerable\`1](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Collections.Generic.IEnumerable`1 'System.Collections.Generic.IEnumerable`1') |
-| context | [Hangfire.Server.PerformContext](#T-Hangfire-Server-PerformContext 'Hangfire.Server.PerformContext') |  |
-
-##### Exceptions
-
-| Name | Description |
-| ---- | ----------- |
-| [System.Exception](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Exception 'System.Exception') | TWhen an unacceptable status code is received |
 
 <a name='T-Afg-Umzug-Jobs-ActiveJobs-ResendErroredJobs'></a>
 ## ResendErroredJobs `type`
@@ -529,8 +499,8 @@ Constructor for ResendErroredJobs
 | ionHttpClient | [Afg.Ion.Client.IonHttpClient](#T-Afg-Ion-Client-IonHttpClient 'Afg.Ion.Client.IonHttpClient') | The injection of the Ion Client of type [IonHttpClient](#T-Afg-Ion-Client-IonHttpClient 'Afg.Ion.Client.IonHttpClient') |
 | logger | [Microsoft.Extensions.Logging.ILogger{Afg.Umzug.Jobs.BackgroundJobs.UpdateIonFromUmzug}](#T-Microsoft-Extensions-Logging-ILogger{Afg-Umzug-Jobs-BackgroundJobs-UpdateIonFromUmzug} 'Microsoft.Extensions.Logging.ILogger{Afg.Umzug.Jobs.BackgroundJobs.UpdateIonFromUmzug}') | The injection of the logger of type [ILogger\`1](#T-Microsoft-Extensions-Logging-ILogger`1 'Microsoft.Extensions.Logging.ILogger`1') |
 
-<a name='M-Afg-Umzug-Jobs-ActiveJobs-ResendErroredJobs-Resend-System-Threading-CancellationToken,Hangfire-Server-PerformContext,System-String-'></a>
-### Resend(token,context,id) `method`
+<a name='M-Afg-Umzug-Jobs-ActiveJobs-ResendErroredJobs-Resend-System-Threading-CancellationToken,System-String-'></a>
+### Resend(token,id) `method`
 
 ##### Summary
 
@@ -545,11 +515,10 @@ Resend the transactions with the specified id
 | Name | Type | Description |
 | ---- | ---- | ----------- |
 | token | [System.Threading.CancellationToken](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Threading.CancellationToken 'System.Threading.CancellationToken') |  |
-| context | [Hangfire.Server.PerformContext](#T-Hangfire-Server-PerformContext 'Hangfire.Server.PerformContext') |  |
 | id | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') | The id that is the be resent of type [String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') |
 
-<a name='M-Afg-Umzug-Jobs-ActiveJobs-ResendErroredJobs-Resend-System-Threading-CancellationToken,Hangfire-Server-PerformContext,System-Collections-Generic-IEnumerable{System-String}-'></a>
-### Resend(token,context,ids) `method`
+<a name='M-Afg-Umzug-Jobs-ActiveJobs-ResendErroredJobs-Resend-System-Threading-CancellationToken,System-Collections-Generic-IEnumerable{System-String}-'></a>
+### Resend(token,ids) `method`
 
 ##### Summary
 
@@ -564,32 +533,7 @@ Resends the transactions with the specifiec id
 | Name | Type | Description |
 | ---- | ---- | ----------- |
 | token | [System.Threading.CancellationToken](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Threading.CancellationToken 'System.Threading.CancellationToken') |  |
-| context | [Hangfire.Server.PerformContext](#T-Hangfire-Server-PerformContext 'Hangfire.Server.PerformContext') |  |
 | ids | [System.Collections.Generic.IEnumerable{System.String}](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Collections.Generic.IEnumerable 'System.Collections.Generic.IEnumerable{System.String}') | The list of ids that are resent of type [IEnumerable\`1](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Collections.Generic.IEnumerable`1 'System.Collections.Generic.IEnumerable`1') |
-
-<a name='M-Afg-Umzug-Jobs-ActiveJobs-ResendErroredJobs-SendListToIon-System-Collections-Generic-IEnumerable{Afg-Umzug-Data-Models-Umzug_Transact},Hangfire-Server-PerformContext-'></a>
-### SendListToIon(lst,context) `method`
-
-##### Summary
-
-Sends the list of valid transactions to ION
-
-##### Returns
-
-A successful response message
-
-##### Parameters
-
-| Name | Type | Description |
-| ---- | ---- | ----------- |
-| lst | [System.Collections.Generic.IEnumerable{Afg.Umzug.Data.Models.Umzug_Transact}](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Collections.Generic.IEnumerable 'System.Collections.Generic.IEnumerable{Afg.Umzug.Data.Models.Umzug_Transact}') | The list of valid transactions to send ot ION of type [IEnumerable\`1](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Collections.Generic.IEnumerable`1 'System.Collections.Generic.IEnumerable`1') |
-| context | [Hangfire.Server.PerformContext](#T-Hangfire-Server-PerformContext 'Hangfire.Server.PerformContext') |  |
-
-##### Exceptions
-
-| Name | Description |
-| ---- | ----------- |
-| [System.Exception](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Exception 'System.Exception') | TWhen an unacceptable status code is received |
 
 <a name='T-Afg-Umzug-Jobs-ActiveJobs-ResendTransactionByDates'></a>
 ## ResendTransactionByDates `type`
@@ -598,7 +542,7 @@ A successful response message
 
 Afg.Umzug.Jobs.ActiveJobs
 
-<a name='M-Afg-Umzug-Jobs-ActiveJobs-ResendTransactionByDates-#ctor-Afg-Umzug-Data-Services-AfgWMSM3DataService-'></a>
+<a name='M-Afg-Umzug-Jobs-ActiveJobs-ResendTransactionByDates-#ctor-Afg-Umzug-Data-Services-AfgWMSM3DataService,Microsoft-Extensions-Logging-ILogger{Afg-Umzug-Jobs-ActiveJobs-ResendTransactionByDates}-'></a>
 ### #ctor(dbService) `constructor`
 
 ##### Summary
@@ -611,8 +555,8 @@ Constructor for ResendTransactionByDates
 | ---- | ---- | ----------- |
 | dbService | [Afg.Umzug.Data.Services.AfgWMSM3DataService](#T-Afg-Umzug-Data-Services-AfgWMSM3DataService 'Afg.Umzug.Data.Services.AfgWMSM3DataService') | The injection of the transaction repository of type [UmzugDCSTransactRepository](#T-Afg-Umzug-Data-Repositories-UmzugDCSTransactRepository 'Afg.Umzug.Data.Repositories.UmzugDCSTransactRepository') |
 
-<a name='M-Afg-Umzug-Jobs-ActiveJobs-ResendTransactionByDates-Resend-System-DateTime,System-DateTime,System-Threading-CancellationToken,Hangfire-Server-PerformContext-'></a>
-### Resend(dateStart,dateEnd,token,context) `method`
+<a name='M-Afg-Umzug-Jobs-ActiveJobs-ResendTransactionByDates-Resend-System-DateTime,System-DateTime,System-Threading-CancellationToken-'></a>
+### Resend(dateStart,dateEnd,token) `method`
 
 ##### Summary
 
@@ -629,7 +573,6 @@ Resends the transactions between a set of dates
 | dateStart | [System.DateTime](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.DateTime 'System.DateTime') | The start date of type [DateTime](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.DateTime 'System.DateTime') from which to get transactions |
 | dateEnd | [System.DateTime](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.DateTime 'System.DateTime') | The end date of type [DateTime](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.DateTime 'System.DateTime') from which to get transactions |
 | token | [System.Threading.CancellationToken](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Threading.CancellationToken 'System.Threading.CancellationToken') |  |
-| context | [Hangfire.Server.PerformContext](#T-Hangfire-Server-PerformContext 'Hangfire.Server.PerformContext') |  |
 
 <a name='T-Afg-Umzug-Jobs-Startup'></a>
 ## Startup `type`
@@ -673,7 +616,7 @@ This method has no parameters.
 
 Afg.Umzug.Jobs.BackgroundJobs
 
-<a name='M-Afg-Umzug-Jobs-BackgroundJobs-UpdateDCSFromUmzug-#ctor-Afg-Umzug-Data-Services-AfgWMSM3DataService,Afg-Umzug-Data-Repositories-UmzugDCSTransactRepository-'></a>
+<a name='M-Afg-Umzug-Jobs-BackgroundJobs-UpdateDCSFromUmzug-#ctor-Afg-Umzug-Data-Services-AfgWMSM3DataService,Afg-Umzug-Data-Repositories-UmzugDCSTransactRepository,Microsoft-Extensions-Logging-ILogger{Afg-Umzug-Jobs-BackgroundJobs-UpdateDCSFromUmzug}-'></a>
 ### #ctor(dbService,repository) `constructor`
 
 ##### Summary
@@ -717,7 +660,7 @@ Afg.Umzug.Jobs.BackgroundJobs
 
 ##### Summary
 
-Conatructor for UpdateIonFromUmzug
+Constructor for UpdateIonFromUmzug
 
 ##### Parameters
 
@@ -742,36 +685,12 @@ The list of jobs that will be sent to ION of type [List\`1](http://msdn.microsof
 
 This method has no parameters.
 
-<a name='M-Afg-Umzug-Jobs-BackgroundJobs-UpdateIonFromUmzug-SendListToIon-System-Collections-Generic-IEnumerable{Afg-Umzug-Data-Models-Umzug_Transact},Hangfire-Server-PerformContext-'></a>
-### SendListToIon(lst,context) `method`
-
-##### Summary
-
-Sends the list of valid transactions to ION
-
-##### Returns
-
-A successful response message
-
-##### Parameters
-
-| Name | Type | Description |
-| ---- | ---- | ----------- |
-| lst | [System.Collections.Generic.IEnumerable{Afg.Umzug.Data.Models.Umzug_Transact}](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Collections.Generic.IEnumerable 'System.Collections.Generic.IEnumerable{Afg.Umzug.Data.Models.Umzug_Transact}') | The list of valid transactions to send ot ION of type [IEnumerable\`1](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Collections.Generic.IEnumerable`1 'System.Collections.Generic.IEnumerable`1') |
-| context | [Hangfire.Server.PerformContext](#T-Hangfire-Server-PerformContext 'Hangfire.Server.PerformContext') |  |
-
-##### Exceptions
-
-| Name | Description |
-| ---- | ----------- |
-| [System.Exception](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Exception 'System.Exception') | TWhen an unacceptable status code is received |
-
 <a name='M-Afg-Umzug-Jobs-BackgroundJobs-UpdateIonFromUmzug-Update-System-Threading-CancellationToken,Hangfire-Server-PerformContext-'></a>
 ### Update(token,context) `method`
 
 ##### Summary
 
-Method that sends the jobs in Umzug into ION
+Method that sends the jobs in Umzug into ION by calling [GetListToExportAsync](#M-Afg-Umzug-Jobs-BackgroundJobs-UpdateIonFromUmzug-GetListToExportAsync 'Afg.Umzug.Jobs.BackgroundJobs.UpdateIonFromUmzug.GetListToExportAsync') and then sending that list to [](#!-SendListToIon-IEnumerable<Umzug_Transact>, PerformContext- 'SendListToIon(IEnumerable<Umzug_Transact>, PerformContext)')
 
 ##### Returns
 
@@ -807,7 +726,7 @@ Constructor for UpdateUmzugFromDCS
 | repository | [Afg.Umzug.Data.Repositories.UmzugDCSTransactRepository](#T-Afg-Umzug-Data-Repositories-UmzugDCSTransactRepository 'Afg.Umzug.Data.Repositories.UmzugDCSTransactRepository') | The injection of the transaction repository of type [UmzugDCSTransactRepository](#T-Afg-Umzug-Data-Repositories-UmzugDCSTransactRepository 'Afg.Umzug.Data.Repositories.UmzugDCSTransactRepository') |
 
 <a name='M-Afg-Umzug-Jobs-BackgroundJobs-UpdateUmzugFromDCS-SyncDatabaseAsync-System-Threading-CancellationToken,Hangfire-Server-PerformContext-'></a>
-### SyncDatabaseAsync(cancellationToken,performContext) `method`
+### SyncDatabaseAsync(cancellationToken,context) `method`
 
 ##### Summary
 
@@ -822,26 +741,7 @@ Updates the CosmoDb from the DCS database
 | Name | Type | Description |
 | ---- | ---- | ----------- |
 | cancellationToken | [System.Threading.CancellationToken](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Threading.CancellationToken 'System.Threading.CancellationToken') |  |
-| performContext | [Hangfire.Server.PerformContext](#T-Hangfire-Server-PerformContext 'Hangfire.Server.PerformContext') |  |
-
-<a name='M-Afg-Umzug-Jobs-BackgroundJobs-UpdateUmzugFromDCS-WhenAllEx-System-Collections-Generic-ICollection{System-Threading-Tasks-Task},System-Action{System-Collections-Generic-ICollection{System-Threading-Tasks-Task}}-'></a>
-### WhenAllEx(tasks,reportProgressAction) `method`
-
-##### Summary
-
-Takes a collection of tasks and completes the returned task when all tasks have completed. If completion
-takes a while a progress lambda is called where all tasks can be observed for their status.
-
-##### Returns
-
-
-
-##### Parameters
-
-| Name | Type | Description |
-| ---- | ---- | ----------- |
-| tasks | [System.Collections.Generic.ICollection{System.Threading.Tasks.Task}](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Collections.Generic.ICollection 'System.Collections.Generic.ICollection{System.Threading.Tasks.Task}') | A collection of tasks |
-| reportProgressAction | [System.Action{System.Collections.Generic.ICollection{System.Threading.Tasks.Task}}](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Action 'System.Action{System.Collections.Generic.ICollection{System.Threading.Tasks.Task}}') | A Action object of the collection of tasks |
+| context | [Hangfire.Server.PerformContext](#T-Hangfire-Server-PerformContext 'Hangfire.Server.PerformContext') |  |
 
 <a name='T-Afg-Umzug-Jobs-BackgroundJobs-UpdateUmzugFromIon'></a>
 ## UpdateUmzugFromIon `type`
@@ -850,8 +750,8 @@ takes a while a progress lambda is called where all tasks can be observed for th
 
 Afg.Umzug.Jobs.BackgroundJobs
 
-<a name='M-Afg-Umzug-Jobs-BackgroundJobs-UpdateUmzugFromIon-#ctor-Afg-Umzug-Data-Services-AfgWMSM3DataService,Afg-Umzug-Data-Repositories-UmzugDCSTransactRepository-'></a>
-### #ctor(dbService,repository) `constructor`
+<a name='M-Afg-Umzug-Jobs-BackgroundJobs-UpdateUmzugFromIon-#ctor-Afg-Umzug-Data-Services-AfgWMSM3DataService,Afg-Umzug-Data-Repositories-UmzugDCSTransactRepository,Afg-Ion-Client-IonHttpClient,Microsoft-Extensions-Logging-ILogger{Afg-Umzug-Jobs-BackgroundJobs-UpdateUmzugFromIon}-'></a>
+### #ctor(dbService,repository,ionHttpClient,logger) `constructor`
 
 ##### Summary
 
@@ -863,9 +763,28 @@ Constructor for UpdateUmzugFromIon
 | ---- | ---- | ----------- |
 | dbService | [Afg.Umzug.Data.Services.AfgWMSM3DataService](#T-Afg-Umzug-Data-Services-AfgWMSM3DataService 'Afg.Umzug.Data.Services.AfgWMSM3DataService') | The injection of the database service of type [AfgWMSM3DataService](#T-Afg-Umzug-Data-Services-AfgWMSM3DataService 'Afg.Umzug.Data.Services.AfgWMSM3DataService') |
 | repository | [Afg.Umzug.Data.Repositories.UmzugDCSTransactRepository](#T-Afg-Umzug-Data-Repositories-UmzugDCSTransactRepository 'Afg.Umzug.Data.Repositories.UmzugDCSTransactRepository') | The injection of the transaction repository of type [UmzugDCSTransactRepository](#T-Afg-Umzug-Data-Repositories-UmzugDCSTransactRepository 'Afg.Umzug.Data.Repositories.UmzugDCSTransactRepository') |
+| ionHttpClient | [Afg.Ion.Client.IonHttpClient](#T-Afg-Ion-Client-IonHttpClient 'Afg.Ion.Client.IonHttpClient') | The injection of the Ion HttpClient of type [IonHttpClient](#T-Afg-Ion-Client-IonHttpClient 'Afg.Ion.Client.IonHttpClient') |
+| logger | [Microsoft.Extensions.Logging.ILogger{Afg.Umzug.Jobs.BackgroundJobs.UpdateUmzugFromIon}](#T-Microsoft-Extensions-Logging-ILogger{Afg-Umzug-Jobs-BackgroundJobs-UpdateUmzugFromIon} 'Microsoft.Extensions.Logging.ILogger{Afg.Umzug.Jobs.BackgroundJobs.UpdateUmzugFromIon}') | The injection of the logger of type [ILogger\`1](#T-Microsoft-Extensions-Logging-ILogger`1 'Microsoft.Extensions.Logging.ILogger`1') |
 
-<a name='M-Afg-Umzug-Jobs-BackgroundJobs-UpdateUmzugFromIon-Update-System-Threading-CancellationToken,Hangfire-Server-PerformContext,System-Collections-Generic-IEnumerable{Afg-Umzug-Data-Models-M3Response}-'></a>
-### Update(token,context,objectFromIon) `method`
+<a name='M-Afg-Umzug-Jobs-BackgroundJobs-UpdateUmzugFromIon-PullFromIon-System-Threading-CancellationToken,Hangfire-Server-PerformContext-'></a>
+### PullFromIon(token) `method`
+
+##### Summary
+
+Background Job that runs every min to pull the Ion Responses that have been processed.
+
+##### Returns
+
+
+
+##### Parameters
+
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| token | [System.Threading.CancellationToken](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Threading.CancellationToken 'System.Threading.CancellationToken') | the cancellation token for async cancellation |
+
+<a name='M-Afg-Umzug-Jobs-BackgroundJobs-UpdateUmzugFromIon-Update-System-Threading-CancellationToken,System-Collections-Generic-IEnumerable{Afg-Umzug-Data-Models-M3Response},Hangfire-Server-PerformContext-'></a>
+### Update(token,objectFromIon,context) `method`
 
 ##### Summary
 
@@ -880,5 +799,5 @@ Updates the CosmoDb from the response from Ion
 | Name | Type | Description |
 | ---- | ---- | ----------- |
 | token | [System.Threading.CancellationToken](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Threading.CancellationToken 'System.Threading.CancellationToken') |  |
+| objectFromIon | [System.Collections.Generic.IEnumerable{Afg.Umzug.Data.Models.M3Response}](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Collections.Generic.IEnumerable 'System.Collections.Generic.IEnumerable{Afg.Umzug.Data.Models.M3Response}') | The response objects of type [IEnumerable\`1](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Collections.Generic.IEnumerable`1 'System.Collections.Generic.IEnumerable`1') |
 | context | [Hangfire.Server.PerformContext](#T-Hangfire-Server-PerformContext 'Hangfire.Server.PerformContext') |  |
-| objectFromIon | [System.Collections.Generic.IEnumerable{Afg.Umzug.Data.Models.M3Response}](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Collections.Generic.IEnumerable 'System.Collections.Generic.IEnumerable{Afg.Umzug.Data.Models.M3Response}') |  |
